@@ -3,7 +3,7 @@ project(Master_DB C)
 
 set(CMAKE_C_STANDARD 11)
 
-#=========
+#=======
 # Specify paths to source files and header files
 set(SOURCE_FILES
         src/modules_db.c
@@ -21,7 +21,7 @@ set(HEADER_FILES
         include/database.h
         include/libs.h
 )
-#=========
+#=======
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES} ${HEADER_FILES})
 
